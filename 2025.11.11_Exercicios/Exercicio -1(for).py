@@ -1,8 +1,9 @@
 
-numero = int(input('Digite um número: '))
+#versão com for
 
-for linha in range (1,6):
-    print(str(numero) * linha) 
-for linha in range(4, 0, -1):
-    print(str(numero) * linha)
-    
+intQt = 5
+for i in range (1, intQt + 1):
+    print('*' * i)
+for i in range (intQt - 1,0,-1):
+    print('*' * i)
+for
